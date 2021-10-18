@@ -1,11 +1,19 @@
 import React from 'react';
+import DrawingBoardPage from "./pages/DrawingBoardPage";
 
-
+import SxAttribute from "./pages/MuiExperimentalCon/DefinedMuistyle/SxAttribute";
+import { renderRoutes } from 'react-router-config';
+import routers  from "./routers";
+import {BrowserRouter, Switch} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      1
-    </div>
+    <BrowserRouter>
+      {/*<DrawingBoardPage />*/}
+      {/*  <SxAttribute />*/}
+      <Switch>
+        {renderRoutes(routers)}
+      </Switch>
+    </BrowserRouter>
   );
 }
 
