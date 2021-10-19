@@ -1,0 +1,10 @@
+.slider {
+  color: red;
+  & .MuiSlider-thumb {
+    border-radius: 1px;
+  }
+
+  &:hover{
+    color: seagreen;
+  }
+}

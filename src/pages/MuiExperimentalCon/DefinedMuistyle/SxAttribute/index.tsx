@@ -18,6 +18,7 @@ const SxAttribute : FC = () => {
             sx={{
                 width: 300,
                 color: 'success.main',
+
             }}
         />
     )
