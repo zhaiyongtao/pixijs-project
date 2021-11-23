@@ -17,14 +17,14 @@ const routers: Array<RouteConfig> = [
         path: "/",
         component: Home,
         routes: [
-            // {
-            //
-            //     path: "/",
-            //     exact: true,
-            //     render: () => {
-            //         return <Redirect to="/home"/>
-            //     }
-            // },
+            {
+
+                path: "/",
+                exact: true,
+                render: () => {
+                    return <Redirect to="/home"/>
+                }
+            },
             {
                 path: "/home",
                 component: Home

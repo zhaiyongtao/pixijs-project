@@ -11,6 +11,8 @@ import GlobalClassName from "./pages/MuiExperimentalCon/DefinedMuistyle/GlobalCl
 import PlainCssSliderDeep1 from "./pages/MuiExperimentalCon/DefinedMuistyle/PlainCssSliderDeep/PlainCssSliderDeep1";
 import PlainCssSliderDeep2 from "./pages/MuiExperimentalCon/DefinedMuistyle/PlainCssSliderDeep/PlainCssSliderDeep2";
 import StyledComponentsTheme from "./pages/MuiExperimentalCon/DefinedMuistyle/StyledComponentMUiTheme";
+import Parent from "./pages/ReactMemos/test";
+import LglSelect from "./pages/LglSelect";
 
 function App() {
     return (
@@ -25,7 +27,9 @@ function App() {
             {/*<GlobalClassName />*/}
             {/*<PlainCssSliderDeep1 />*/}
             {/*<PlainCssSliderDeep2 />*/}
-            <StyledComponentsTheme />
+            {/*<StyledComponentsTheme />*/}
+            {/*<Parent/>*/}
+            <LglSelect />
         </BrowserRouter>
     );
 }
